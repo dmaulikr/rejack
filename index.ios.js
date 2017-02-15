@@ -9,6 +9,7 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
+  Dimensions,
   View
 } from 'react-native';
 
@@ -25,7 +26,7 @@ export default class rejack extends Component {
           }}
           style={styles.preview}
           aspect={Camera.constants.Aspect.fill}>
-          <Text style={styles.capture} onPress={this.takePicture.bind(this)}>[CAPTURE]</Text>
+          <Text style={styles.capture} >[Hæ Katla!]</Text>
         </Camera>
       </View>
     );
