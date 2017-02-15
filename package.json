@@ -9,7 +9,8 @@
   "dependencies": {
     "bugsnag-react-native": "^2.0.3",
     "react": "~15.4.0",
-    "react-native": "0.41.2"
+    "react-native": "0.41.2",
+    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git"
   },
   "devDependencies": {
     "babel-jest": "18.0.0",
