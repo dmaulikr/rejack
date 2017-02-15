@@ -1,0 +1,3 @@
+rootProject.name = 'rejack'
+
+include ':app'
